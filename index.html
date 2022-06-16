@@ -1,20 +1,27 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet">
-		<link rel="icon" href="icon.jpg" />
+		<link rel="icon" href="icon1.jpg" />
 		<title>Gabriel Vilar</title>
 	</head>
 	<body>
 		<header id="header">
 			<h1><b>GABRIEL</b> VILAR</h1>
+			<div id = "checks">
+				<label for="language">
+					PT-BR:
+				</label>
+				<input onclick = "changeLanguage()" type = "checkbox" id ="language">
+			</div>
 			<hr>
-			Computer Science Student
+			<p class  = "texto">Computer Science Student</p>
 			<hr>
 		</header>
 		<main>
 			<article id="mainLeft">
 				<section>
-					<h2>CONTACT</h2>
+					<h2 class = "texto">CONTACT</h2>
 					<p>
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 						<img src = "mail.png" height="20px" alt="Email">
@@ -22,42 +29,68 @@
                         
                     </p>
                     <p>
-                        <i class="fab fa-github" aria-hidden="true"></i>
+						<i class="fab fa-github" aria-hidden="true"></i>
 						<img src = "github.png" height="20px" alt="Github">
-                        <a href="github.com/gakjvc">gakjvc</a>
+                        <a href="https://github.com/Gakjvc">Gakjvc</a>
                     </p>
                     <p>
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+						<i class="fab fa-linkedin" aria-hidden="true"></i>
 						<img src = "linkedin.png" height="20px" alt="Linkedin">
-                        <a href="linkedin.com/in/gabriel-vilar-188265235/">Gabriel Vilar</a>
+                        <a href="https://linkedin.com/in/gabriel-vilar-188265235/">Gabriel Vilar</a>
                     </p>
 				</section>
 				<section>
-					<h2>SKILLS</h2>
+					<h2 class = "texto">SKILLS</h2>
 					<h3>C# (Unity)</h3>
-<p>
-		Experience with C# using the Unity game development tool
-</p> Self Published Games: <a href = "gakj.itch.io">gakj.itch.io</a>
-             <p>
-              <h3>Knowledgeable in</h3>
-              Python, Html, CSS, JavaScript, Flutter(Dart)
-             </p>
+					<p class = "texto">
+						Experience with C# using the Unity game development tool
+					</p> Self Published Games: <a href = "https://gakj.itch.io">gakj.itch.io</a>
+					<p>
+						<h3 class = "texto">Knowledgeable in</h3>
+						Python, Html, CSS, JavaScript, Flutter(Dart)
+					</p>
 				</section>
 			</article>
 			<article id="mainRight">
-			<section>
-					<h2>EDUCATION</h2>
-					Graduated from High School <br>
-                    Approved at "Univeridade Federal de Campina Grande"
+				<section>
+					<h2 class = "texto">EDUCATION</h2>
+					<p class = "texto">Graduated from High School</p>
+					<p class = "texto">Approved at "Univeridade Federal de Campina Grande" </p>
 				</section>            
 				<section>
-					<h2>ABOUT</h2>
-					<p class = "about">
-                        18 year old living in João Pessoa, Paraíba, Brazil<br> 
-                        Self taught programmer since 2019
-                    </p> 
+					<h2 class = "texto">ABOUT</h2>
+					<p id = "about">
+						<p class = "texto"> 18 year old living in João Pessoa, Paraíba, Brazil</p>
+						<p class = "texto"> Self taught programmer since 2019</p>
+					</p> 
 				</section>
 			</article>
 		</main>
+		<div style="display: none;"> 			
+			<p class = "ptbr">Estudante de Ciência da Computação</p>
+			<p class = "ptbr">CONTATO</p>
+			<p class = "ptbr">HABILIDADES</p>
+			<p class = "ptbr">Experiência com C# usando Unity para o desenvolvimento de jogos</p>
+			<p class = "ptbr" >Outros Conhecimentos</p>
+			<p class = "ptbr" >ESCOLARIDADE</p>
+			<p class = "ptbr" >Ensino Médio Completo </p>
+            <p class = "ptbr" >Aprovado na Univeridade Federal de Campina Grande</p>
+			<p class = "ptbr" >SOBRE</p>
+			<p class = "ptbr" >Atualmente com 18 anos de idade, moro em João Pessoa, Paraíba</p>
+			<p class = "ptbr" >Programador autodidata desde 2019</p>
+
+			<p class  = "eng">Computer Science Student</p>
+			<h2 class = "eng">CONTACT</h2>
+			<h2 class = "eng">SKILLS</h2>
+			<p class = "eng">Experience with C# using the Unity game development tool</p>
+			<h3 class = "eng">Knowledgeable in</h3>
+			<h2 class = "eng">EDUCATION</h2>
+			<p class = "eng">Graduated from High School</p>
+			<p class = "eng">Approved at "Univeridade Federal de Campina Grande" </p>
+			<h2 class = "eng">ABOUT</h2>
+			<p class = "eng"> 18 year old living in João Pessoa, Paraíba, Brazil</p>
+			<p class = "eng"> Self taught programmer since 2019</p>				
+		</div>
+		<script src="index.js"></script>
 	</body>
 </html>
