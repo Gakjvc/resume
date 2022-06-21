@@ -54,11 +54,11 @@ h1, h2 {
 h3{
     font-weight: 620;
 }
-.eng{
-    background-color: greenyellow;
+.about {
+    padding-bottom: 6px;
 }
 #about{
-    font-size: medium;
+    font-size: small;
 }
 #mainLeft {
     border-right: 1px solid lightgray;
@@ -69,4 +69,11 @@ h3{
     bottom: 5px;
     display: block;
     cursor: pointer;
+}
+#knowlein{
+    padding-bottom: 0px;
+    font-size: medium;
+}
+#knowle{
+ padding: 0px 0 0 20px;
 }
