@@ -17,7 +17,6 @@ function changeLanguage(){
   if(ptbr == undefined){
     start()
   }  
-  if(ptbr != undefined){
     let changeTo
     switch (lang) {
       case "pt-BR":
@@ -30,5 +29,4 @@ function changeLanguage(){
     for (let index = 0; index < texto.length; index++) {
       texto[index].textContent = changeTo[index].textContent
     }
-  }
 }
